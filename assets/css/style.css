@@ -478,6 +478,7 @@ a:hover {
     }
 }
 
+
 @media screen and (max-width: 640px) {
     #navbar{
         display: none;
@@ -582,6 +583,8 @@ a:hover {
         padding-left: 4%;
         width: 87%;
         padding-right: 4%;
+        padding-bottom: 161%;
+        margin-bottom: 7%;
     }
     .project-label {
         height: 30%;
@@ -637,3 +640,74 @@ a:hover {
         display: none;
     }
 }
+
+@media screen and (max-width: 598px) and (min-width: 536) {
+    #contentform{
+        padding-bottom: 58%;
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 535px) and (min-width:466px) {
+    #contentform {
+        padding-bottom: 66%;
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 465px) and (min-width: 461px){
+    #contentform {
+        padding-bottom: 90%;
+    }
+    #phonelist {
+        height: 3%;
+        padding-right: 31%;
+    }
+}
+
+@media screen and (max-width: 460px) and (min-width: 421px) {
+    #contentform {
+        padding-bottom: 74%;
+        margin-bottom: 20%;
+        margin-top: 39%;
+    }
+}
+
+@media screen and (max-width: 420px) and (min-width: 338px) {
+    #phonelist {
+        height: 3%;
+        padding-right: 32%;
+    }
+    #contentform {
+        padding-bottom: 84%;
+    }
+}
+
+@media screen and (max-width: 337px) and (min-width: 297) {
+    #phonelist {
+        height: 3%;
+        padding-right: 22%;
+    }
+
+    body{
+        margin-top: 50%;
+    }
+
+    #contentform {
+        padding-bottom: 104%;
+
+    }
+}
+
+@media screen and (max-width: 296px) {
+
+    #contentform {
+        padding-bottom: 117%;
+    }
+    
+    #phonelist {
+        height: 3%;
+        padding-right: 26%;
+    }
+}
+
