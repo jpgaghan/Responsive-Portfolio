@@ -26,10 +26,17 @@ li {
     margin-top: 40px;
     color: #777777;
 }
+#portname{
+    margin-left: 128px;
+}
+
+#portlist{
+    margin-right: 9%;
+}
 
 form {
     margin: auto;
-    margin-top: 4%;
+    margin-top: 7%;
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 10px;
@@ -285,6 +292,7 @@ a:hover {
  .contentportfolio {
     margin: auto;
     margin-top: 6%;
+    margin-bottom: 6%;
     padding-right:50px;
     padding-left:50px;
     padding-top: 10px;
@@ -303,23 +311,29 @@ a:hover {
     display: none;
 }
 
-@media screen and (max-width: 960px) and (min-width: 769px) {
+@media screen and (max-width: 980px) and (min-width: 769px) {
     #content {
         width: 50%;
         position: relative;
         right: 16%;
-    margin-bottom: 10%;
-    margin-top: 10%;
+        margin-bottom: 10%;
+        margin-top: 10%;
     }
+    
     #contentform {
         width: 50%;
         position: relative;
         right: 16%;
         margin-bottom: 7%;
+        margin-top: 10%;
+    }
+
+    #portname{
+        margin-left: -90px;
     }
 
     .contentportfolio{
-        width: 56%;
+        width: 61%;
         position: relative;
         right: 16%;
         margin-bottom: 8%;
@@ -341,9 +355,20 @@ a:hover {
         left: 15%;
         margin-left: -11%;
     }
+    #contactname{
+        position: absolute;
+        left: 15%;
+        margin-left: -11%;  
+    }
 
+    #portlist{
+        margin-right: 6px;
+    }
     ul{
         margin-right: 6px;
+    }
+    #submitbutton{
+        width: 16%;
     }
 }
 
@@ -356,12 +381,22 @@ a:hover {
         margin-top: 16%;
     }
 
+    #portlist{
+        margin-right: 1%;
+    }
+
+    #contactname{
+        position: absolute;
+        left: 15%;
+        margin-left: -12%;  
+    }
+
     #contentform{
-        width: 80%;
-        margin-left: 5%;
+        width: 50%;
         position: relative;
-        margin-bottom: 15%;
-        margin-top: 12%;  
+        right: 16%;
+        margin-bottom: 7%;
+        margin-top: 11%;
     }
     input {
         width: 100%;
@@ -378,7 +413,7 @@ a:hover {
         left: 16%;
         margin-left: -11%;
     }
-
+    
     ul{
         position: absolute;
         right: 0%;
@@ -387,13 +422,16 @@ a:hover {
 
     .contentportfolio {
         margin: auto;
-        margin-top: 28%;
+        margin-top: 14%;
         padding-left: 4%;
         width: 87%;
         padding-right: 4%;
+        height: 897px;
+        margin-bottom: 12%;
     }
+
     .project-img{
-        width: 303px;
+        width: 270px;
         height: 230px;
     }
 
@@ -402,7 +440,7 @@ a:hover {
         width: 240px;
         height: 122px;
         top: -122px;
-        right: -330px;
+        right: -308px;
     }
 
     .project3 {
@@ -412,13 +450,16 @@ a:hover {
         top: 25px;
         right: 0px;
     }
-
+    .project-label{
+        bottom: -102px;
+        width: 270px;
+    }
     .project4 {
         position: relative;
         width: 240px;
         height: 122px;
         top: -97px;
-        right: -330px;
+        right: -308px;
     }
 
     .project5 {
@@ -427,6 +468,13 @@ a:hover {
         height: 122px;
         top: 50px;
         right: 0px;
+    }
+    #submitbutton{
+        width: 17%;
+    }
+
+    #portname{
+        margin-left: -87px;
     }
 }
 
@@ -538,11 +586,11 @@ a:hover {
     .project-label {
         height: 30%;
         bottom: -81%;
-        width: 217%;
+        width: 478px;
     }
 
     .project-img{
-        width: 520px;
+        width: 478px;
         height: 230px;
     }
 
